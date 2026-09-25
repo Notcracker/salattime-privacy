@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Salat Time — Privacy Policy</title>
+<style>
+  :root { --bg: #ffffff; --fg: #1f2328; --muted: #59636e; --line: #d8dee4; --accent: #607d8b; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #363940; --fg: #e6e8eb; --muted: #aeb4bb; --line: #4a4e56; --accent: #9fb6c1; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg);
+    font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 24px 16px 64px; }
+  nav { display: flex; gap: 8px; justify-content: flex-end; margin-bottom: 8px; }
+  nav a { padding: 4px 12px; border: 1px solid var(--line); border-radius: 6px;
+    color: var(--fg); text-decoration: none; font-size: 14px; }
+  nav a.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+  h1 { font-size: 28px; line-height: 1.25; margin: 16px 0 4px; }
+  h2 { font-size: 20px; margin: 32px 0 8px; padding-top: 16px; border-top: 1px solid var(--line); }
+  .date { color: var(--muted); margin: 0 0 16px; }
+  a { color: var(--accent); }
+  ul { padding-left: 22px; }
+  li { margin: 4px 0; }
+  .js section[lang] { display: none; }
+  .js section[lang].active { display: block; }
+</style>
+<script>document.documentElement.className = 'js';</script>
+</head>
+<body>
+<main>
+<nav>
+  <a href="#en" data-lang="en">EN</a>
+  <a href="#ru" data-lang="ru">RU</a>
+  <a href="#fr" data-lang="fr">FR</a>
+</nav>
+
+<!-- ============================ EN ============================ -->
+<section lang="en" data-title="Salat Time — Privacy Policy">
+<h1>Salat Time Privacy Policy</h1>
+<p class="date">Effective date: [date]</p>
+<p>This policy explains what data the Salat Time Android app (<code>com.salattime</code>) collects, why, and where it is sent. The app is developed by [developer name] ("we").</p>
+
+<h2>In short</h2>
+<ul>
+  <li>The app has no sign-up, no accounts and no ads.</li>
+  <li>Your coordinates are stored on your device only. The app itself does not send them to us or to analytics.</li>
+  <li>We use Google Firebase Analytics for usage statistics.</li>
+  <li>We do not sell data or share it for advertising.</li>
+</ul>
+
+<h2>Location</h2>
+<p>Prayer times and the Qibla direction depend on where you are. The app therefore asks for <strong>approximate</strong> location, only while it is open. It never asks for precise location or background location access.</p>
+<ul>
+  <li>The last received coordinates are stored on the device. They are used to calculate the schedule and to plan reminders, including while the app is closed.</li>
+  <li>If the calculation method is detected automatically, the app sends the coordinates once to the Android geocoding service, which on most devices is provided by Google. The app receives only the country code from it, to choose the calculation method. Once the country is known or a method is chosen manually, no further requests are made.</li>
+  <li>Without location access the schedule cannot be calculated; the app then shows a button to ask again.</li>
+</ul>
+
+<h2>Notifications</h2>
+<p>Prayer reminders are created and shown on the device itself. The app does not use server push notifications and does not obtain a push identifier.</p>
+
+<h2>Calendar (optional)</h2>
+<p>If you turn on "Calendar events" in settings, the app asks for calendar access and adds events with prayer times and reminders to the device's primary calendar.</p>
+<ul>
+  <li>The app reads events only within the period of its reminders and changes or deletes only its own events (marked "namazhelper").</li>
+  <li>If the primary calendar is linked to an account, for example Google, the events are synced with it under that service's rules.</li>
+  <li>When you turn the option off, the events created by the app are deleted.</li>
+</ul>
+
+<h2>Compass</h2>
+<p>The compass uses only the device's sensors; no data is sent anywhere.</p>
+
+<h2>Analytics</h2>
+<p>We use Google Firebase Analytics to understand how the app is used and to improve it. It collects:</p>
+<ul>
+  <li><strong>Actions in the app:</strong> switching between tabs and changes to settings (theme, reminder time, notifications and calendar switches, calculation method, Asr madhab, high-latitude rule), and the device language on first launch.</li>
+  <li><strong>Identifiers:</strong> the app instance ID assigned by Firebase, and the Android ID. The Android ID is issued by Android separately for each app on a device, is not visible to other apps, and changes on a factory reset.</li>
+  <li><strong>Device information:</strong> model, Android version and app version.</li>
+  <li><strong>Approximate location from the IP address:</strong> Firebase determines the country and region from the IP address the data is sent from. Coordinates are not sent to analytics.</li>
+</ul>
+<p>The Advertising ID is not collected, and Firebase advertising features are turned off. Data is sent encrypted (TLS) and processed by Google under the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
+<h2>Who receives data</h2>
+<p>Only Google, within the services described above: Firebase Analytics and the geocoding service. No one else. We do not sell data or share it for advertising.</p>
+
+<h2>Retention and deletion</h2>
+<ul>
+  <li>Settings and coordinates are stored on the device only and are not included in Android cloud backups. Uninstalling the app deletes them completely.</li>
+  <li>Analytics data linked to device identifiers is deleted automatically after [2 / 14] months [after the last use of the app]. After that only aggregated statistics remain (for example, the number of users per country), which are not linked to any device.</li>
+  <li>Analytics identifiers are not shown in the app, and there are no accounts through which we could find your data. So on request we most likely cannot tell which records belong to you. If you have questions, write to us at [email] and we will try to help.</li>
+</ul>
+
+<h2>Permissions</h2>
+<p>The app asks for:</p>
+<ul>
+  <li>approximate location;</li>
+  <li>notifications;</li>
+  <li>calendar, only when you turn that option on.</li>
+</ul>
+<p>Any permission can be revoked in Android system settings. The app also uses internet access (for analytics) and starts after a reboot (to restore reminders).</p>
+
+<h2>Children</h2>
+<p>The app is not specifically directed at children under 13, and we do not knowingly collect their data.</p>
+
+<h2>Changes</h2>
+<p>If this policy changes, the new version will be published on this page with a new date.</p>
+
+<h2>Contact</h2>
+<p>[email]</p>
+</section>
+
+<!-- ============================ RU ============================ -->
+<section lang="ru" data-title="Salat Time — Политика конфиденциальности">
+<h1>Политика конфиденциальности Salat Time</h1>
+<p class="date">Действует с: [дата]</p>
+<p>Эта политика описывает, какие данные собирает Android-приложение Salat Time (<code>com.salattime</code>), зачем и куда они передаются. Приложение разрабатывает [имя / название разработчика] (далее «мы»).</p>
+
+<h2>Коротко</h2>
+<ul>
+  <li>В приложении нет регистрации, аккаунтов и рекламы.</li>
+  <li>Ваши координаты хранятся только на устройстве. Приложение само не отправляет их ни нам, ни в аналитику.</li>
+  <li>Для статистики использования мы применяем Google Firebase Analytics.</li>
+  <li>Мы не продаём данные и не передаём их для рекламы.</li>
+</ul>
+
+<h2>Местоположение</h2>
+<p>Время намазов и направление на Киблу зависят от того, где вы находитесь. Поэтому приложение запрашивает доступ к <strong>приблизительному</strong> местоположению, только пока оно открыто. Точное местоположение и доступ в фоновом режиме не запрашиваются.</p>
+<ul>
+  <li>Последние полученные координаты сохраняются на устройстве. По ним рассчитывается расписание и планируются напоминания, в том числе когда приложение закрыто.</li>
+  <li>Если метод расчёта определяется автоматически, приложение один раз передаёт координаты системной службе геокодирования Android. На большинстве устройств её предоставляет Google. Приложение получает от неё только код страны, чтобы выбрать метод расчёта. После того как страна определена или метод выбран вручную, запросы больше не отправляются.</li>
+  <li>Без доступа к местоположению расписание рассчитать нельзя. В этом случае приложение показывает кнопку, чтобы повторить запрос.</li>
+</ul>
+
+<h2>Уведомления</h2>
+<p>Напоминания о намазах создаются и показываются на самом устройстве. Приложение не использует push-уведомления с сервера и не получает для них идентификатор.</p>
+
+<h2>Календарь (по желанию)</h2>
+<p>Если включить в настройках «События в календаре», приложение попросит доступ к календарю и создаст в основном календаре устройства события с временем намазов и напоминаниями.</p>
+<ul>
+  <li>Приложение читает события только за период своих напоминаний и изменяет или удаляет только собственные события (с пометкой «namazhelper»).</li>
+  <li>Если основной календарь привязан к аккаунту, например Google, события синхронизируются с ним по правилам этого сервиса.</li>
+  <li>Если выключить эту опцию, созданные приложением события будут удалены.</li>
+</ul>
+
+<h2>Компас</h2>
+<p>Компас работает только на датчиках устройства, данные никуда не передаются.</p>
+
+<h2>Аналитика</h2>
+<p>Мы используем Google Firebase Analytics, чтобы понимать, как пользуются приложением, и улучшать его. Собираются:</p>
+<ul>
+  <li><strong>Действия в приложении:</strong> переходы между вкладками и изменения настроек (тема, время напоминания, включение уведомлений и календаря, метод расчёта, мазхаб для Асра, правило для высоких широт), а также язык устройства при первом запуске.</li>
+  <li><strong>Идентификаторы:</strong> идентификатор экземпляра приложения, который назначает Firebase, и Android ID. Android ID выдаётся каждому приложению на устройстве отдельно, другим приложениям он не виден и меняется при сбросе устройства к заводским настройкам.</li>
+  <li><strong>Сведения об устройстве:</strong> модель, версия Android и версия приложения.</li>
+  <li><strong>Примерное местоположение по IP-адресу:</strong> Firebase определяет страну и регион по IP-адресу, с которого отправляются данные. Координаты в аналитику не передаются.</li>
+</ul>
+<p>Рекламный идентификатор (Advertising ID) не собирается, рекламные функции Firebase отключены. Данные передаются в зашифрованном виде (TLS) и обрабатываются Google согласно <a href="https://policies.google.com/privacy?hl=ru">Политике конфиденциальности Google</a>.</p>
+
+<h2>Кому передаются данные</h2>
+<p>Только Google, в рамках описанных выше сервисов: Firebase Analytics и служба геокодирования. Больше никому. Мы не продаём и не передаём данные для рекламы.</p>
+
+<h2>Хранение и удаление</h2>
+<ul>
+  <li>Настройки и координаты хранятся только на устройстве и не попадают в облачную резервную копию Android. Удаление приложения удаляет их полностью.</li>
+  <li>Данные аналитики, связанные с идентификаторами устройства, автоматически удаляются через [2 / 14] месяцев [после последнего использования приложения]. После этого остаётся только обобщённая статистика (например, число пользователей по странам), которая не связана с конкретным устройством.</li>
+  <li>Идентификаторы аналитики не показываются в приложении, и у нас нет аккаунтов, по которым можно найти ваши данные. Поэтому по запросу мы, скорее всего, не сможем определить, какие записи принадлежат вам. Если у вас есть вопросы, напишите нам на [email], и мы постараемся помочь.</li>
+</ul>
+
+<h2>Разрешения</h2>
+<p>Приложение запрашивает:</p>
+<ul>
+  <li>приблизительное местоположение;</li>
+  <li>уведомления;</li>
+  <li>календарь, только при включении этой опции.</li>
+</ul>
+<p>Любое разрешение можно отозвать в системных настройках Android. Кроме того, приложение использует доступ в интернет (для аналитики) и запуск после перезагрузки (чтобы восстановить напоминания).</p>
+
+<h2>Дети</h2>
+<p>Приложение не предназначено специально для детей младше 13 лет, и мы сознательно не собираем их данные.</p>
+
+<h2>Изменения</h2>
+<p>Если политика изменится, новая версия появится на этой странице с новой датой.</p>
+
+<h2>Контакты</h2>
+<p>[email]</p>
+</section>
+
+<!-- ============================ FR ============================ -->
+<section lang="fr" data-title="Salat Time — Politique de confidentialité">
+<h1>Politique de confidentialité de Salat Time</h1>
+<p class="date">En vigueur depuis le : [date]</p>
+<p>Cette politique décrit les données que collecte l'application Android Salat Time (<code>com.salattime</code>), pourquoi, et où elles sont envoyées. L'application est développée par [nom du développeur] (« nous »).</p>
+
+<h2>En bref</h2>
+<ul>
+  <li>L'application n'a ni inscription, ni compte, ni publicité.</li>
+  <li>Vos coordonnées sont stockées uniquement sur votre appareil. L'application ne les envoie ni à nous, ni aux statistiques.</li>
+  <li>Nous utilisons Google Firebase Analytics pour les statistiques d'utilisation.</li>
+  <li>Nous ne vendons pas les données et ne les partageons pas à des fins publicitaires.</li>
+</ul>
+
+<h2>Localisation</h2>
+<p>Les horaires de prière et la direction de la Qibla dépendent de l'endroit où vous vous trouvez. L'application demande donc l'accès à votre position <strong>approximative</strong>, uniquement lorsqu'elle est ouverte. Elle ne demande jamais la position précise ni l'accès en arrière-plan.</p>
+<ul>
+  <li>Les dernières coordonnées reçues sont enregistrées sur l'appareil. Elles servent à calculer les horaires et à planifier les rappels, y compris lorsque l'application est fermée.</li>
+  <li>Si la méthode de calcul est détectée automatiquement, l'application envoie une fois les coordonnées au service de géocodage d'Android, fourni par Google sur la plupart des appareils. L'application n'en reçoit que le code du pays, afin de choisir la méthode de calcul. Une fois le pays connu ou la méthode choisie manuellement, aucune autre requête n'est envoyée.</li>
+  <li>Sans accès à la position, les horaires ne peuvent pas être calculés ; l'application affiche alors un bouton pour renouveler la demande.</li>
+</ul>
+
+<h2>Notifications</h2>
+<p>Les rappels de prière sont créés et affichés sur l'appareil lui-même. L'application n'utilise pas de notifications push depuis un serveur et n'obtient pas d'identifiant push.</p>
+
+<h2>Calendrier (facultatif)</h2>
+<p>Si vous activez « Événements du calendrier » dans les paramètres, l'application demande l'accès au calendrier et ajoute au calendrier principal de l'appareil des événements avec les horaires de prière et des rappels.</p>
+<ul>
+  <li>L'application ne lit les événements que sur la période de ses rappels et ne modifie ou supprime que ses propres événements (marqués « namazhelper »).</li>
+  <li>Si le calendrier principal est lié à un compte, par exemple Google, les événements sont synchronisés avec celui-ci selon les règles de ce service.</li>
+  <li>Lorsque vous désactivez l'option, les événements créés par l'application sont supprimés.</li>
+</ul>
+
+<h2>Boussole</h2>
+<p>La boussole utilise uniquement les capteurs de l'appareil ; aucune donnée n'est envoyée.</p>
+
+<h2>Statistiques</h2>
+<p>Nous utilisons Google Firebase Analytics pour comprendre comment l'application est utilisée et l'améliorer. Sont collectés :</p>
+<ul>
+  <li><strong>Actions dans l'application :</strong> passage d'un onglet à l'autre et modifications des paramètres (thème, délai du rappel, activation des notifications et du calendrier, méthode de calcul, madhab pour Asr, règle des hautes latitudes), ainsi que la langue de l'appareil au premier lancement.</li>
+  <li><strong>Identifiants :</strong> l'identifiant d'instance de l'application attribué par Firebase, et l'Android ID. L'Android ID est attribué par Android séparément à chaque application sur un appareil, n'est pas visible par les autres applications et change lors d'une réinitialisation d'usine.</li>
+  <li><strong>Informations sur l'appareil :</strong> modèle, version d'Android et version de l'application.</li>
+  <li><strong>Position approximative à partir de l'adresse IP :</strong> Firebase détermine le pays et la région à partir de l'adresse IP d'envoi des données. Les coordonnées ne sont pas envoyées aux statistiques.</li>
+</ul>
+<p>L'identifiant publicitaire (Advertising ID) n'est pas collecté et les fonctions publicitaires de Firebase sont désactivées. Les données sont envoyées chiffrées (TLS) et traitées par Google conformément aux <a href="https://policies.google.com/privacy?hl=fr">Règles de confidentialité de Google</a>.</p>
+
+<h2>Destinataires des données</h2>
+<p>Uniquement Google, dans le cadre des services décrits ci-dessus : Firebase Analytics et le service de géocodage. Personne d'autre. Nous ne vendons pas les données et ne les partageons pas à des fins publicitaires.</p>
+
+<h2>Conservation et suppression</h2>
+<ul>
+  <li>Les paramètres et les coordonnées sont stockés uniquement sur l'appareil et ne sont pas inclus dans les sauvegardes cloud d'Android. La désinstallation de l'application les supprime entièrement.</li>
+  <li>Les données statistiques liées aux identifiants de l'appareil sont supprimées automatiquement après [2 / 14] mois [après la dernière utilisation de l'application]. Il ne reste ensuite que des statistiques agrégées (par exemple, le nombre d'utilisateurs par pays), qui ne sont liées à aucun appareil.</li>
+  <li>Les identifiants statistiques ne sont pas affichés dans l'application et il n'existe pas de compte permettant de retrouver vos données. Sur demande, nous ne pourrons donc très probablement pas déterminer quelles données vous concernent. Pour toute question, écrivez-nous à [email] et nous essaierons de vous aider.</li>
+</ul>
+
+<h2>Autorisations</h2>
+<p>L'application demande :</p>
+<ul>
+  <li>la position approximative ;</li>
+  <li>les notifications ;</li>
+  <li>le calendrier, uniquement si vous activez cette option.</li>
+</ul>
+<p>Toute autorisation peut être révoquée dans les paramètres système d'Android. L'application utilise également l'accès à Internet (pour les statistiques) et le démarrage après redémarrage (pour rétablir les rappels).</p>
+
+<h2>Enfants</h2>
+<p>L'application ne s'adresse pas spécifiquement aux enfants de moins de 13 ans, et nous ne collectons pas sciemment leurs données.</p>
+
+<h2>Modifications</h2>
+<p>Si cette politique change, la nouvelle version sera publiée sur cette page avec une nouvelle date.</p>
+
+<h2>Contact</h2>
+<p>[email]</p>
+</section>
+</main>
+
+<script>
+(function () {
+  var langs = ['en', 'ru', 'fr'];
+  function show() {
+    var lang = location.hash.slice(1);
+    if (langs.indexOf(lang) < 0) lang = 'en';
+    document.querySelectorAll('section[lang]').forEach(function (s) {
+      var on = s.lang === lang;
+      s.classList.toggle('active', on);
+      if (on) document.title = s.getAttribute('data-title');
+    });
+    document.querySelectorAll('nav a').forEach(function (a) {
+      a.classList.toggle('active', a.getAttribute('data-lang') === lang);
+    });
+    document.documentElement.lang = lang;
+  }
+  window.addEventListener('hashchange', function () { show(); window.scrollTo(0, 0); });
+  show();
+})();
+</script>
+</body>
+</html>
